@@ -636,15 +636,18 @@ body.down .header-default.clone, body.down .header-personal nav.clone, body.down
 }
 .header-personal.light .navbar .nav-link {
   color: #FFF;
+  cursor: pointer;
 }
 .header-personal.light .navbar.clone .nav-link {
   color: #79889e;
+  cursor: pointer;
 }
 .header-personal.light .navbar.clone .nav-link:hover {
   color: #203656;
 }
 .header-personal.light .navbar.clone li.active .nav-link {
   color: #FFF;
+  cursor: pointer;
 }
 
 .text-logo {
@@ -678,6 +681,7 @@ body.down .header-default.clone, body.down .header-personal nav.clone, body.down
 .navbar-nav .nav-link {
   padding: 0.439rem 1rem;
   color: #3b3b3b;
+  cursor: pointer;
 }
 .navbar-nav .nav-link:hover {
   color: #203656;
@@ -688,6 +692,7 @@ body.down .header-default.clone, body.down .header-personal nav.clone, body.down
   background: #FE4F70;
   background: -webkit-linear-gradient(left, #FE4F70 0%, #FFA387 100%);
   background: linear-gradient(to right, #FE4F70 0%, #FFA387 100%);
+  cursor: pointer;
 }
 
 .navbar-brand {
@@ -820,6 +825,7 @@ body.down .header-default.clone, body.down .header-personal nav.clone, body.down
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.3rem;
     padding-left: 1.3rem;
+    cursor: pointer;
   }
 }
 .canvas-menu {
@@ -2678,6 +2684,7 @@ button:focus {
 }
 .nav-fill .nav-item, .nav-fill > .nav-link {
   margin-right: 10px;
+  cursor: pointer;
 }
 .nav-fill .nav-item:last-child, .nav-fill > .nav-link:last-child {
   margin-right: 0;
@@ -2686,6 +2693,7 @@ button:focus {
 .nav-fill .nav-item > .nav-link {
   color: #8F9BAD !important;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -2695,12 +2703,14 @@ button:focus {
   background: linear-gradient(to right, #FE4F70 0%, #FFA387 51%, #FE4F70 100%);
   border-color: transparent;
   background-size: 200% auto;
+  cursor: pointer;
 }
 
 .nav-pills .nav-link {
   background: 0 0;
   border: solid 1px #EBEBEB;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 /* === Pagination === */
